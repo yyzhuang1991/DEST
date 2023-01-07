@@ -15,13 +15,13 @@ Set a virtual environment with python3 and install the packages:
 
 In this section, we show how to predict polarities for event phrases using a trained Aff-BERT. 
 
-### 2.0  [Optional] Download the Trained Aff-BERT 
+### 2.1  Download the Trained Aff-BERT 
 
 We release a trained Aff-BERT for researchers to predict polarities for event phrases. This Aff-BERT was trained with DEST over all 1,500 labeled events in our TWITTER dataset. You could download the [trained Aff-BERT here](https://drive.google.com/file/d/16TRcDWjmKQ7PaXmR46_4LYIqh6eI-UdU/view?usp=sharing). Please unzip it and put it anywhere you want. 
 
 If you want to train and use a model by yourself, please refer to Section 3 below. 
 
-### 2.1 Make Predictions
+### 2.2 Make Predictions
 
 The following command predicts the polarity of a single event phrase using a trained Aff-BERT.
 
@@ -135,6 +135,8 @@ As the TWITTER dataset is small (only 1,500 events), it is better to train Aff-B
         --unlabeled_event2sentis data/unlabeled_data/unlabeled_event2sentis.json \
         --senti2polar data/unlabeled_data/senti2polar.json \
 
+## Contact 
+If you have any questions regarding our paper or codes, please contact the author via the email: yuan.zhuang@utah.edu 
 
 ## Citation
 

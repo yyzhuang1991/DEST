@@ -1,0 +1,6 @@
+transformers==4.8.2
+torch==1.9.0
+tqdm
+tabulate
+scikit-learn
+matplotlib
